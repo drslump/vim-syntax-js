@@ -7,6 +7,13 @@ conceal features.
   previous versions.
 
 
+## Installation
+
+Just copy the `syntax/javascript.vim` file to your `.vim/syntax` folder or
+if using [pathogen](https://github.com/tpope/vim-pathogen) just clone in 
+this repository in your bundles directory.
+
+
 ## Folding
 
 This syntax supports pretty decent folding which you can activate with:
