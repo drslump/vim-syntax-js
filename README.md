@@ -27,7 +27,7 @@ You can add the above line to your `ftplugin` or in your _vimrc_ using:
 
 ## Conceals
 
-To activate conceals with these commands:
+Activate conceals with these commands:
 
     set conceallevel=2
     set concealcursor=nc  " don't reveal the conceals unless on insert or visual modes
