@@ -9,9 +9,9 @@ conceal features.
 
 ## Installation
 
-Just copy the `syntax/javascript.vim` file to your `.vim/syntax` folder or
-if using [pathogen](https://github.com/tpope/vim-pathogen) just clone in 
-this repository in your bundles directory.
+Just copy the `syntax/javascript.vim` file to your `.vim/syntax` directory or
+if using [pathogen](https://github.com/tpope/vim-pathogen) just clone this 
+repository in to your bundles directory.
 
 
 ## Folding
