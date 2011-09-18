@@ -36,15 +36,15 @@ You'll also need to indicate which conceals you want to apply by using the
 
 The availabe options are
 
-  - function   replace 'function' keywords with 𝑓
-  - semicolon  hide semicolons if they are the last char in a line
-  - comma      hide commas if the are the last char in a line
-  - return     replace 'return' keywords with ↩
-  - this       use Ruby style @prop instead of this.prop
-  - proto      replace '.prototype.' with →
-  - solarized  fine-tunes the highlighing for the solarized color scheme
-               with a light background
-  - debug      Shows the syntax groups stack in the status line
+  - **function**   replace `function` keywords with 𝑓
+  - **semicolon**  hide semicolons if they are the last char in a line
+  - **comma**      hide commas if the are the last char in a line
+  - **return**     replace `return` keywords with ↩
+  - **this**       use Ruby style `@prop` instead of `this.prop`
+  - **proto**      replace `.prototype.` with →
+  - **solarized**  fine-tunes the highlighing for the [solarized](https://github.com/altercation/vim-colors-solarized) 
+                   color scheme with a light background
+  - **debug**      Shows the syntax groups stack in the status line
 
 
 ## License
