@@ -223,7 +223,7 @@ if (has('conceal') && &enc=="utf-8")
   "" Replace .prototype. with →or ∷
   "" Use containedin=@jsAll to give it more priority
   if count(g:syntax_js, 'proto') || count(g:syntax_js, 'prototype')
-    syntax match   jsConcealProto /\.prototype\./ containedin=@jsStatement,@jsBlock conceal cchar=→
+    syntax match   jsConcealProto /\.prototype\./ containedin=@jsAll conceal cchar=→
     hi def link jsConcealProto jsIdent
   endif
 
