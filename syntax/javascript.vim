@@ -372,7 +372,7 @@ if count(g:syntax_js, 'solarized') && exists('g:solarized_vars')
 
   "" Functions
   exe "hi! jsFunc         " . s.fg_base00
-  exe "hi! jsFuncName     " . s.fg_base0 s.fmt_bold
+  exe "hi! jsFuncName     " . s.fg_base0
   exe "hi! jsFuncParam    " . s.fg_base0 s.fmt_undr
   exe "hi! jsFuncParens   " . s.fg_base02 . s.fmt_bold
 
