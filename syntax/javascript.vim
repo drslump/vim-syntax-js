@@ -193,7 +193,7 @@ if (has('conceal') && &enc=="utf-8")
 
   "" Hide semicolons found at end of line
   if count(g:syntax_js, 'semicolon')
-    syntax match   jsPunctSemiColon   /;\s*$/ containedin=@jsAll display conceal
+    syntax match   jsPunctSemiColon   /;\%(\(\s*}\)\@=\|\s*$\)/ containedin=@jsAll display conceal
   endif
 
   "" Hide commas found at end of line
