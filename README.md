@@ -47,6 +47,14 @@ The availabe options are
   - **debug**      Shows the syntax groups stack in the status line
 
 
+## Screenshot
+
+This is how it looks on MacVim when enabling all the options on a light background [solarized](https://github.com/altercation/vim-colors-solarized) 
+and Inconsolata as type face.
+
+![Screenshot](http://github.com/drslump/vim-syntax-js/raw/master/screenshot.png)
+
+
 ## License
 
     The MIT License
