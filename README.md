@@ -3,14 +3,14 @@
 A brand new Vim syntax for JavaScript with fine tuned grouping and optional
 conceal features.
 
-> It has only tested been tested with Vim 7.2 so it might not fully work on 
+> It has only been tested with Vim 7.2 so it might not fully work on 
   previous versions.
 
 
 ## Installation
 
 Just copy the `syntax/javascript.vim` file to your `.vim/syntax` directory or
-if using [pathogen](https://github.com/tpope/vim-pathogen) just clone this 
+if using [pathogen](https://github.com/tpope/vim-pathogen) just clone this
 repository in to your bundles directory.
 
 
@@ -45,7 +45,7 @@ The availabe options are
 
   - **function**   replace `function` keywords with 𝑓
   - **semicolon**  hide semicolons if they are the last char in a line
-  - **comma**      hide commas if the are the last char in a line
+  - **comma**      hide commas if they are the last char in a line
   - **return**     replace `return` keywords with ↩
   - **this**       use Ruby style `@prop` instead of `this.prop`
   - **proto**      replace `.prototype.` with →
@@ -56,10 +56,17 @@ The availabe options are
 
 ## Screenshot
 
-This is how it looks on MacVim when enabling all the options on a light background [solarized](https://github.com/altercation/vim-colors-solarized) 
-and Inconsolata as type face.
+This is how it looks on MacVim when enabling all the options on a light [solarized](https://github.com/altercation/vim-colors-solarized) 
+with Inconsolata as type face.
 
 ![Screenshot](http://github.com/drslump/vim-syntax-js/raw/master/screenshot.png)
+
+
+## Indent
+
+For better auto indentation I recommend [pangloss'](https://github.com/pangloss/vim-javascript) indent script.
+Just make sure to only copy its indent script and not the syntax one, otherwise it will override the syntax with 
+its own version.
 
 
 ## License
