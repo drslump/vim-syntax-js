@@ -164,6 +164,7 @@ syntax cluster jsBlock              contains=jsBlockBrackets,jsBlockParens,jsBlo
 
 "" Catch errors caused by wrong pairing
 syntax match   jsError              /)\|}\|\]/
+syntax match   jsError              contained /,\%(\(\s\|\n\)*[}\]]\)\@=/ containedin=jsPunctComma
 
 
 "" Clusters
@@ -197,8 +198,9 @@ if (has('conceal') && &enc=="utf-8")
   endif
 
   "" Hide commas found at end of line
+  " TODO: Try to avoid overwriting the jsError rule for commas before } and ]
   if count(g:syntax_js, 'comma')
-    syntax match   jsPunctComma       /,\s*$/ containedin=@jsAll display conceal
+    syntax match   jsPunctComma       /,\s*$/ containedin=jsObject,jsArray display conceal
   endif
   
 
